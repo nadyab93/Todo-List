@@ -1,8 +1,47 @@
-# React + Vite
+# Todo-List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This Todo List application is built using Vite + React, Tailwind and Firebase. It allows users to manage their tasks efficiently with real-time updates and simple CRUD operations. The app features task creation, toggling completion status, and deletion. The project follows a tutorial from the Code Commerce YouTube channel, demonstrating how to build a todo app with Firebase using the Create React App approach.
 
-Currently, two official plugins are available:
+https://github.com/user-attachments/assets/54bcb6c4-2604-4dd6-af97-24fae45f069a
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Features
+
+- Add Todos: Users can add new tasks to their todo list.
+- Toggle Completion: Mark tasks as completed or incomplete with a checkbox.
+- Delete Todos: Remove tasks from the list with a delete button.
+- Real-time Updates: Todos are updated in real-time using Firebase Firestore.
+
+# File Structure
+
+- App.jsx: Main component handling todo list functionality and state.
+- firebase.js: Firebase configuration and Firestore initialization.
+- Todo.jsx: Component for rendering individual todo items.
+- index.css: Tailwind CSS imports.
+- main.jsx: Entry point for the React application.
+
+# Usage
+
+- Add a Todo: Type a task in the input field and click the plus button or press Enter.
+- Toggle Completion: Click on the task text or checkbox to mark it as completed or incomplete.
+- Delete a Todo: Click the trash icon next to the task to remove it from the list.
+
+# External Resources
+
+- [React.js](https://react.dev/): JavaScript library used for building the user interface.
+- [Vite](https://vitejs.dev/): A fast build tool for modern web projects.
+- [Tailwind CSS](https://tailwindcss.com/): Utility-first CSS framework for styling.
+- [Firebase](https://firebase.google.com/): Provides real-time database services.
+
+# Tutorial
+
+This project is based on the tutorial provided by the [Code Commerce](https://www.youtube.com/watch?v=drF8HbnW87w) YouTube channel. The tutorial covers building a todo app with React and Firebase, offering a solid foundation for developing real-time applications.
+
+# License
+
+This project is licensed under the MIT License. See the full license text below:
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
