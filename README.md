@@ -2,6 +2,8 @@
 
 This Todo List application is built using Vite + React, Tailwind and Firebase. It allows users to manage their tasks efficiently with real-time updates and simple CRUD operations. The app features task creation, toggling completion status, edit and deletion. 
 
+
+
 # Features
 
 - Add Todos: Users can add new tasks to their todo list.
@@ -34,7 +36,7 @@ This Todo List application is built using Vite + React, Tailwind and Firebase. I
 
 # Tutorial
 
-This project is based on the tutorial provided by the [Code Commerce](https://www.youtube.com/watch?v=drF8HbnW87w) YouTube channel. The tutorial covers building a todo app with React and Firebase, offering a solid foundation for developing real-time applications.
+This project extends the basic functionality of a todo app by incorporating features for editing tasks on the list. It builds upon the tutorial provided by [Code Commerce](https://www.youtube.com/watch?v=drF8HbnW87w) YouTube channel, which offers a solid foundation for developing real-time applications using React and Firebase.
 
 # License
 
