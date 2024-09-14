@@ -1,14 +1,13 @@
 # Todo-List
 
-This Todo List application is built using Vite + React, Tailwind and Firebase. It allows users to manage their tasks efficiently with real-time updates and simple CRUD operations. The app features task creation, toggling completion status, and deletion. The project follows a tutorial from the Code Commerce YouTube channel, demonstrating how to build a todo app with Firebase using the Create React App approach.
-
-https://github.com/user-attachments/assets/54bcb6c4-2604-4dd6-af97-24fae45f069a
+This Todo List application is built using Vite + React, Tailwind and Firebase. It allows users to manage their tasks efficiently with real-time updates and simple CRUD operations. The app features task creation, toggling completion status, edit and deletion. 
 
 # Features
 
 - Add Todos: Users can add new tasks to their todo list.
 - Toggle Completion: Mark tasks as completed or incomplete with a checkbox.
 - Delete Todos: Remove tasks from the list with a delete button.
+- Edit Todos: Edit tasks from the list with a edit and sava button.
 - Real-time Updates: Todos are updated in real-time using Firebase Firestore.
 
 # File Structure
@@ -23,7 +22,8 @@ https://github.com/user-attachments/assets/54bcb6c4-2604-4dd6-af97-24fae45f069a
 
 - Add a Todo: Type a task in the input field and click the plus button or press Enter.
 - Toggle Completion: Click on the task text or checkbox to mark it as completed or incomplete.
-- Delete a Todo: Click the trash icon next to the task to remove it from the list.
+- Delete a Todo: Click the trash icon next to the edit icon to remove it from the list.
+- Edit a Todo: Click the edit icon next to the task to edit and press save
 
 # External Resources
 
